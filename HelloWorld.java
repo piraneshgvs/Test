@@ -9,7 +9,11 @@ class HelloWorld
 	// Your program begins with a call to main().
 	// Prints "Hello, World" to the terminal window.
 	public static void main(String args[])
-	{
-		System.out.println("Hai this is piranesh sakthivel");
+	{	
+		Scanner sc = new Scanner(System.in);
+		int a,b;
+		a=sc.nextInt();
+		b=sc.nextInt();
+		System.out.println("Sum of the two numbers is : "+a+b);
 	}
 }
